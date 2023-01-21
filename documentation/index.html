@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Documentation - Ely jQuery Gallery</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Documentation for Ely jQuery Gallery project.">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+        </style>    
+        
+        <link rel="stylesheet" href="assets/style.css">
+
+    </head>
+<body>
+
+    <nav id="mobile-nav">
+
+        <div class="mobile-nav-opener">
+            <span class="mobile-nav-text">All</span>
+            <span class="mobile-nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></span>
+        </div>
+
+        <ul>
+
+                            <li>
+                    <a href="#gettingstarted" data-depth="0">Getting Started</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#quickstart-5d29b306d0d06" data-depth="1">Quick Start</a>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#markup&amp;settings" data-depth="0">Markup &amp; Settings</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#htmlmarkupsection-5d29b306d0d1f" data-depth="1">HTML Markup Section</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#designsorlayouts-5d29b306d0d1f" data-depth="2">Designs or Layouts</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#itemmarkup-5d29b306d0d1f" data-depth="2">Item Markup</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#responsivesettings-5d29b306d0d1f" data-depth="2">Responsive Settings</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#examples" data-depth="0">Examples</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#justified-5d29b306d0d33" data-depth="1">Justified</a>
+                                                                    </li>
+                                                            <li>
+                                    <a href="#grid-5d29b306d0d33" data-depth="1">Grid</a>
+                                                                    </li>
+                                                            <li>
+                                    <a href="#masonry-5d29b306d0d33" data-depth="1">Masonry</a>
+                                                                    </li>
+                                                            <li>
+                                    <a href="#fullwidth-5d29b306d0d33" data-depth="1">Fullwidth</a>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#imagesheightforjustifieddesign" data-depth="0">Images Height For Justified Design</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#imagesheight-5d29b306d0d47" data-depth="1">Images Height</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#markup-5d29b306d0d47" data-depth="2">Markup</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#version1.1 markup" data-depth="0">Version 1.1 Markup</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#markup-5d29b306d0d50" data-depth="1">Markup</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#designsorlayouts-5d29b306d0d50" data-depth="2">Designs or Layouts</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#itemmarkup-5d29b306d0d50" data-depth="2">Item Markup</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#version1.0markup" data-depth="0">Version 1.0 Markup</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#markup-5d29b306d0d5d" data-depth="1">Markup</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#gallerydesignsmarkup-5d29b306d0d5d" data-depth="2">Gallery Designs Markup</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#galleryitemmarkup-5d29b306d0d5d" data-depth="2">Gallery Item Markup</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#credits" data-depth="0">Credits</a>
+                                    </li>
+                    </ul>
+    </nav>
+
+    <nav id="desktop-nav">
+
+        <form>
+            <span>clear</span>
+            <input type="text" placeholder="Search..." >
+            <ul></ul>
+        </form>
+        
+        <h1 id="project_title">Ely jQuery Gallery</h1>
+
+        <ul>
+                            <li>
+                    <a href="#gettingstarted" data-depth="0">Getting Started</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#quickstart-5d29b306d0d06" data-depth="1">Quick Start</a>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#markup&amp;settings" data-depth="0">Markup &amp; Settings</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#htmlmarkupsection-5d29b306d0d1f" data-depth="1">HTML Markup Section</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#designsorlayouts-5d29b306d0d1f" data-depth="2">Designs or Layouts</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#itemmarkup-5d29b306d0d1f" data-depth="2">Item Markup</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#responsivesettings-5d29b306d0d1f" data-depth="2">Responsive Settings</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#examples" data-depth="0">Examples</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#justified-5d29b306d0d33" data-depth="1">Justified</a>
+                                                                    </li>
+                                                            <li>
+                                    <a href="#grid-5d29b306d0d33" data-depth="1">Grid</a>
+                                                                    </li>
+                                                            <li>
+                                    <a href="#masonry-5d29b306d0d33" data-depth="1">Masonry</a>
+                                                                    </li>
+                                                            <li>
+                                    <a href="#fullwidth-5d29b306d0d33" data-depth="1">Fullwidth</a>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#imagesheightforjustifieddesign" data-depth="0">Images Height For Justified Design</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#imagesheight-5d29b306d0d47" data-depth="1">Images Height</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#markup-5d29b306d0d47" data-depth="2">Markup</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#version1.1 markup" data-depth="0">Version 1.1 Markup</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#markup-5d29b306d0d50" data-depth="1">Markup</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#designsorlayouts-5d29b306d0d50" data-depth="2">Designs or Layouts</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#itemmarkup-5d29b306d0d50" data-depth="2">Item Markup</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#version1.0markup" data-depth="0">Version 1.0 Markup</a>
+                                            <ul>
+                                                            <li>
+                                    <a href="#markup-5d29b306d0d5d" data-depth="1">Markup</a>
+                                                                            <ul>
+                                                                                            <li>
+                                                    <a href="#gallerydesignsmarkup-5d29b306d0d5d" data-depth="2">Gallery Designs Markup</a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="#galleryitemmarkup-5d29b306d0d5d" data-depth="2">Gallery Item Markup</a>
+                                                </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                    </ul>
+                                    </li>
+                            <li>
+                    <a href="#credits" data-depth="0">Credits</a>
+                                    </li>
+                    </ul>
+
+    </nav>
+
+    <main>
+                    <section class="content-block" id="gettingstarted">
+                <article><h2 id="quickstart-5d29b306d0d06">Quick Start</h2>
+<blockquote>
+  <p>Before we start, the best way to understand how this plugin works is the demo.html file included in the zip file. ( open it with any text editor and see the markup by yourself )</p>
+</blockquote>
+<ol>
+<li>Download the zip file and extract it.</li>
+<li>Copy <code>fancyg.min.css</code> from the <code>ely-jquery-gallery/css</code> folder and paste it to your project folder.</li>
+<li>Copy <code>fancyg.min.js</code> and <code>justifiedGallery.min.js</code> from the <code>ely-jquery-gallery/js</code> folder and paste it to your project folder.</li>
+<li>Now open your index.html file with your text editor, and paste this code between the <code>&lt;head&gt;&lt;/head&gt;</code> tag. ( if you are already using jquery, do not copy the script line ) </li>
+</ol>
+<pre><code class="html language-html">&lt;link rel="stylesheet" href="fancyg.min.css"&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"&gt;&lt;/script&gt;
+</code></pre>
+<ol start="5">
+<li>After that copy this code and paste it before the body closing tag <code>&lt;/body&gt;</code></li>
+</ol>
+<pre><code class="html language-html">&lt;script src="justifiedGallery.min.js"&gt;&lt;/script&gt;
+&lt;script src="fancyg.min.js"&gt;&lt;/script&gt;
+</code></pre>
+<ol start="6">
+<li>Now, follow the gallery html markup section.</li>
+</ol></article>
+            </section>
+                    <section class="content-block" id="markup&amp;settings">
+                <article><h2 id="htmlmarkupsection-5d29b306d0d1f">HTML Markup Section</h2>
+<blockquote>
+  <p>Version 2.0.0 has a new markup! </p>
+  <p>if you are still using version 1.1.0 go to section <code>Version 1.1 Markup</code></p>
+</blockquote>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="justified"&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/1.png"&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+        &lt;a href="images/1.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/2.png"&gt;
+        &lt;a href="images/2.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+<h3 id="designsorlayouts-5d29b306d0d1f">Designs or Layouts</h3>
+<p>There are 4 designs classes you can choose from:</p>
+<ol>
+<li>Justified : <code>data-design="justified"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="justified"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="2">
+<li>Grid : <code>data-design="grid"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="grid"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="3">
+<li>Masonry : <code>data-design="masonry"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="masonry"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="4">
+<li>Fullwidth : <code>data-design="fullwidth"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="fullwidth"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<h3 id="itemmarkup-5d29b306d0d1f">Item Markup</h3>
+<pre><code class="html language-html">&lt;div class="item-fg"&gt;
+    &lt;img src="images/1.png" alt=""&gt;
+    &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+    &lt;a href="images/1.png"&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<p>Add the image link to the href / src properties.</p>
+<p>If you want to add a caption add a div with a caption class like the example above.</p>
+<blockquote>
+  <p>Do not forget the a tag <code>&lt;a ...&gt;&lt;/a&gt;</code>.</p>
+</blockquote>
+<h3 id="responsivesettings-5d29b306d0d1f">Responsive Settings</h3>
+<p>You can choose how many column per device.</p>
+<p>For example you can display 3 columns for desktop, 2 for tablet and 1 for mobile.</p>
+<p>Here is how:</p>
+<pre><code>&lt;div class="gallery-fg" data-design="grid" data-desktop="3" data-tablet="2" data-mobile="1"&gt;
+</code></pre>
+<blockquote>
+  <p>Only Works with GRID, MASONRY</p>
+</blockquote></article>
+            </section>
+                    <section class="content-block" id="examples">
+                <article><h2 id="justified-5d29b306d0d33">Justified</h2>
+<p><img src="images/f9a4b80bc5ba24484ef5827569c84141.png" alt="f9a4b80bc5ba24484ef5827569c84141" /></p>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="justified"&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/1.png" alt=""&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+        &lt;a href="images/1.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/2.png" alt=""&gt;
+        &lt;a href="images/2.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+...
+
+&lt;/div&gt;
+</code></pre>
+</article><article><h2 id="grid-5d29b306d0d33">Grid</h2>
+<p><img src="images/e776d67a1d86a7c8e1cb775e323e68e8.png" alt="e776d67a1d86a7c8e1cb775e323e68e8" /></p>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="grid"&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/1.png" alt=""&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+        &lt;a href="images/1.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/2.png" alt=""&gt;
+        &lt;a href="images/2.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+...
+&lt;/div&gt;
+</code></pre>
+</article><article><h2 id="masonry-5d29b306d0d33">Masonry</h2>
+<p><img src="images/d98f023cd9490e66032023db4f822fd0.png" alt="d98f023cd9490e66032023db4f822fd0" /></p>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="masonry"&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/1.png" alt=""&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+        &lt;a href="images/1.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/2.png" alt=""&gt;
+        &lt;a href="images/2.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+...
+&lt;/div&gt;
+</code></pre>
+</article><article><h2 id="fullwidth-5d29b306d0d33">Fullwidth</h2>
+<p><img src="images/d2b844442283ff1d76f43daf206c80f5.png" alt="d2b844442283ff1d76f43daf206c80f5" /></p>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="fullwidth"&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/1.png" alt=""&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+        &lt;a href="images/1.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="item-fg"&gt;
+        &lt;img src="images/2.png" alt=""&gt;
+        &lt;a href="images/2.png"&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+...
+&lt;/div&gt;
+</code></pre></article>
+            </section>
+                    <section class="content-block" id="imagesheightforjustifieddesign">
+                <article><h2 id="imagesheight-5d29b306d0d47">Images Height</h2>
+<p>If you are using the justified design and want to change the images height, add this HTML property to the gallery : <code>data-rowheight="200"</code> 200 is the new height.</p>
+<h3 id="markup-5d29b306d0d47">Markup</h3>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="justified" data-rowheight="200"&gt;
+...
+
+&lt;/div&gt;
+</code></pre></article>
+            </section>
+                    <section class="content-block" id="version1.1 markup">
+                <article><h2 id="markup-5d29b306d0d50">Markup</h2>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="justified"&gt;
+
+    &lt;a class="item-fg" href="images/1.png"&gt;
+        &lt;img src="images/1.png"&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+    &lt;/a&gt;
+
+    &lt;a class="item-fg" href="images/2.png"&gt;
+        &lt;img src="images/2.png"&gt;
+    &lt;/a&gt;
+
+&lt;/div&gt;
+</code></pre>
+<h3 id="designsorlayouts-5d29b306d0d50">Designs or Layouts</h3>
+<p>There are 3 designs classes you can choose from:</p>
+<ol>
+<li>Justified : <code>data-design="justified"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="justified"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="2">
+<li>Grid : <code>data-design="grid"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="grid"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="3">
+<li>Fullwidth : <code>data-design="fullwidth"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg" data-design="fullwidth"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<h3 id="itemmarkup-5d29b306d0d50">Item Markup</h3>
+<pre><code class="html language-html">&lt;a class="item-fg" href="images/1.png"&gt;
+    &lt;img src="images/1.png" alt=""&gt;
+    &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+&lt;/a&gt;
+</code></pre>
+<p>Add the image link to the href / src properties.</p>
+<p>If you want to add a caption add a div with a caption class like the example above.</p></article>
+            </section>
+                    <section class="content-block" id="version1.0markup">
+                <article><h2 id="markup-5d29b306d0d5d">Markup</h2>
+<pre><code class="html language-html">&lt;div class="gallery-fg justified-fg"&gt;
+
+    &lt;a href="images/1.png"&gt;
+        &lt;img src="images/1.png" alt=""&gt;
+        &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+    &lt;/a&gt;
+
+    &lt;a href="images/2.png"&gt;
+        &lt;img src="images/2.png" alt=""&gt;
+    &lt;/a&gt;
+
+    &lt;a href="images/3.png"&gt;
+        &lt;img src="images/3.png" alt=""&gt;
+    &lt;/a&gt;
+
+&lt;/div&gt;
+</code></pre>
+<h3 id="gallerydesignsmarkup-5d29b306d0d5d">Gallery Designs Markup</h3>
+<p>There are 3 designs classes you can choose from:</p>
+<ol>
+<li>Justified : <code>class="gallery-fg justified-fg"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg justified-fg"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="2">
+<li>Grid : <code>class="gallery-fg grid-fg"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg grid-fg"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<ol start="3">
+<li>Fullwidth : <code>class="gallery-fg fullwidth-fg"</code></li>
+</ol>
+<pre><code class="html language-html">&lt;div class="gallery-fg fullwidth-fg"&gt;
+...
+&lt;/div&gt;
+</code></pre>
+<h3 id="galleryitemmarkup-5d29b306d0d5d">Gallery Item Markup</h3>
+<pre><code class="html language-html">&lt;a href="images/1.png"&gt;
+    &lt;img src="images/1.png" alt=""&gt;
+    &lt;div class="caption"&gt;Some caption goes here&lt;/div&gt;
+&lt;/a&gt;
+</code></pre>
+<p>Add the image link to the href / src properties.</p>
+<p>If you want to add a caption add a div with a caption class like the example above.</p>
+<blockquote>
+  <p>Add as many items as you like</p>
+</blockquote></article>
+            </section>
+                    <section class="content-block" id="credits">
+                <article><<ol>
+<li>Images : https://unsplash.com/</li>
+<li>jQuery : https://jquery.com/</li>
+<li>Justified Galleries : http://miromannino.github.io/Justified-Gallery/</li>
+</ol></article>
+            </section>
+            </main>
+
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/highlight.min.js"></script>
+    <script src="assets/go.min.js"></script>
+    <script src="assets/front.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+* version : 1.1.0
+    -> Improved: Code
+    -> Fixed: Bugs
+    -> Updated: Markup
+    -> Updated: Documentation
+    -> Added: Sass Support

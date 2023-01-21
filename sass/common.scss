@@ -1,0 +1,84 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+// Colors.
+$black: rgb(41, 41, 41);
+$white: #f4f4f4;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+
+// Devices 
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$widescreen: 1200px;
+
+
+// 
+// Upload Button
+// 
+.button-ely-upload{
+    padding: 10px 15px;
+    background: #eaeaea;
+    color: #191e23;
+    display: block;
+    width: 100%;
+}
+
+// 
+// Alert
+// 
+.fancyg-alert{
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+// 
+// Inspector :: Tabs
+// 
+.fancyg-tabs {
+    justify-content: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 0;
+    top: 0;
+
+    > [role="tablist"]{
+        margin-top: 15px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    > [role="tabpanel"]{
+        padding: 20px 0 0;
+    }
+
+    .fancyg-tab{
+        background: 0 0;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+        height: 48px;
+        padding: 3px 15px;
+        margin-left: 0;
+        font-weight: 400;
+        color: #191e23;
+        outline-offset: -1px;
+        outline: none;
+    }
+
+    .fancyg-tab-active{
+        background: #f1f1f1;
+        color: black;
+    }
+}
